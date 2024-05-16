@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest new content or mechanics
+title: "Feature Request"
+labels: [feature request]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the content or mechanics you are proposing."
+    validations:
+      required: true
+  - type: textarea
+    id: description2
+    attributes:
+      label: "Describe how you think this content will improve gameplay and the mod itself."
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before making this issue, check the boxes below to confirm that you have acknowledged them.
+      options:
+        - label: I have checked the [Trello](https://trello.com/b/ssUrFp9l/valoria) to make sure my suggestion isn't planned.
+          required: true
