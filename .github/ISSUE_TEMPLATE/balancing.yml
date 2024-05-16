@@ -1,0 +1,17 @@
+name: Balancing
+description: Provide balance suggestions on existing features
+title: "Balancing"
+labels: [balancing]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe what you would like changed, and why."
+    validations:
+      required: false
+  - type: textarea
+    id: description2
+    attributes:
+      label: "Describe the changes you want to propose. Include possible alternatives."
+    validations:
+      required: true
